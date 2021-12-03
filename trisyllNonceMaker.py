@@ -12,7 +12,8 @@ def getSylls(input):
         bb += 1
     return syllList
 
-
+#edit to keep same consonants non-adjacent
+#no more than one /z/ per word
 def makeWords(syllable_list):  
     cc = 0
     wordList = []
@@ -20,10 +21,16 @@ def makeWords(syllable_list):
     while cc < peak:
         initial = syllable_list[cc]
         cc += 1
+        z = False
+        if initial[0] == 'z': z = True
         dd = 0
         while dd < peak:
             tmp = syllable_list[dd]
-            if tmp != initial:
+            #no identical adjacent sylls, no adjacent same onset syllables
+            if (tmp[0] == 'z') & (z == True):
+                dd += 1
+                continue
+            elif (tmp != initial) & (tmp[0] != initial[0]):
                 penult = tmp
                 dd += 1
             else: 
@@ -32,10 +39,13 @@ def makeWords(syllable_list):
             ee = 0
             while ee < peak:
                 tmp = syllable_list[ee]
-                if ((tmp == initial) or (tmp == penult)):
+                if (z == True) & (tmp[0] == 'z'):
                     ee += 1
                     continue
-                if (tmp[0] == initial[0]) & (tmp[0] == penult[0]):
+                elif ((tmp == initial) or (tmp == penult)):
+                    ee += 1
+                    continue
+                elif (tmp[0] == initial[0]) & (tmp[0] == penult[0]):
                     ee += 1
                     continue
                 else: 
