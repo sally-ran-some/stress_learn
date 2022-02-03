@@ -1,0 +1,8 @@
+﻿ID,word,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,text_2.started,text_2.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,text_3.started,text_3.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,,,18.58640075198491,None,space,6.128444570000283,18.58640075198491,None,,,,,,,,,0,003,2022_Jan_26_1328,learn_exp,2021.2.3,None,
+,,,,,,,,,,,,24.7483060079976,None,space,62.05951077499776,24.7483060079976,None,,,0,003,2022_Jan_26_1328,learn_exp,2021.2.3,None,
+1,badago_chain,0,0,0,0,,,,,,,,,,,,,,,0,003,2022_Jan_26_1328,learn_exp,2021.2.3,None,
+3,bolelo_chain,0,1,1,2,,,,,,,,,,,,,,,0,003,2022_Jan_26_1328,learn_exp,2021.2.3,None,
+2,balabo_chain,0,2,2,1,,,,,,,,,,,,,,,0,003,2022_Jan_26_1328,learn_exp,2021.2.3,None,
+4,doloze_chain,0,3,3,3,,,,,,,,,,,,,,,0,003,2022_Jan_26_1328,learn_exp,2021.2.3,None,
+,,,,,,,,,,,,,,,,,,86.83454406497185,None,,,,,,,

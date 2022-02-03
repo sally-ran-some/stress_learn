@@ -1,0 +1,30 @@
+0.6330 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+2.6280 	WARNING 	/Users/sarah/.psychopy3/fonts/Consolas.truetype doesn't have valid font family name
+2.6923 	WARNING 	/Users/sarah/.psychopy3/fonts/Consolas.truetype doesn't have valid font family name
+4.7867 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1792, 1120]. Using actual size
+6.9593 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+6.9598 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fded8721ac8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fdeeed8da90>, multiSample=False, name='window1', numSamples=2, pos=[448.0, 280.0], screen=0, size=array([3584, 2240]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.9600 	EXP 	window1: mouseVisible = True
+6.9601 	EXP 	window1: recordFrameIntervals = False
+7.1287 	EXP 	window1: recordFrameIntervals = True
+8.7624 	WARNING 	t of last frame was 20.00ms (=1/49)
+8.7958 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.5620 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.9777 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+11.4765 	EXP 	Sound sound_1 set volume 1.000
+11.5054 	WARNING 	t of last frame was 2709.89ms (=1/0)
+11.5054 	EXP 	text: autoDraw = True
+12.7628 	DATA 	Keypress: space
+12.7752 	EXP 	text: autoDraw = False
+12.7752 	EXP 	text_2: autoDraw = True
+13.1992 	EXP 	Imported stimuli/stim.xlsx as conditions, 5 conditions, 5 params
+13.1997 	EXP 	Created sequence: random, trialTypes=5, nReps=0, seed=None
+13.2036 	DATA 	Keypress: space
+13.2102 	EXP 	text_2: autoDraw = False
+13.7718 	EXP 	window1: mouseVisible = True

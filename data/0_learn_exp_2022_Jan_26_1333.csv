@@ -1,0 +1,4 @@
+﻿trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,text_2.started,text_2.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,text_3.started,text_3.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+,,,,13.850983309996082,None,space,0.9749961750057992,13.850983309996082,None,,,,,,,,,0,005,2022_Jan_26_1333,learn_exp,2021.2.3,None,
+,,,,,,,,,,14.843429631990148,None,space,0.5927636100095697,14.843429631990148,None,,,0,005,2022_Jan_26_1333,learn_exp,2021.2.3,None,
+,,,,,,,,,,,,,,,,15.462742778996471,None,,,,,,,

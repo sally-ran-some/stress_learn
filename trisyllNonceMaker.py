@@ -14,47 +14,18 @@ def getSylls(input):
 
 #edit to keep same consonants non-adjacent
 #no more than one /z/ per word
-def makeWords(syllable_list):  
+def makeWords(word_list):  
     cc = 0
     wordList = []
-    peak = len(syllable_list)
-    while cc < peak:
-        initial = syllable_list[cc]
+    wordList.append(word_list)
+    peak = len(word_list)
+    for element in word_list:   
+        firstSyl = word_list[element[0:1]]
+
+
+
         cc += 1
-        z = False
-        if initial[0] == 'z': z = True
-        dd = 0
-        while dd < peak:
-            tmp = syllable_list[dd]
-            #no identical adjacent sylls, no adjacent same onset syllables
-            if (tmp[0] == 'z') & (z == True):
-                dd += 1
-                continue
-            elif (tmp != initial) & (tmp[0] != initial[0]):
-                penult = tmp
-                dd += 1
-            else: 
-                dd += 1
-                continue
-            ee = 0
-            while ee < peak:
-                tmp = syllable_list[ee]
-                if (z == True) & (tmp[0] == 'z'):
-                    ee += 1
-                    continue
-                elif ((tmp == initial) or (tmp == penult)):
-                    ee += 1
-                    continue
-                elif (tmp[0] == initial[0]) & (tmp[0] == penult[0]):
-                    ee += 1
-                    continue
-                else: 
-                    ultima = tmp 
-                    ee+=1
-                    word = (initial, penult, ultima)
-                    wordList.append(word)
-    print(wordList)      
-    return wordList
+       
 def nonceToFile(wordList, output1, output2):
     f = open(output1, 'w')
     for t in wordList:

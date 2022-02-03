@@ -1,0 +1,3 @@
+﻿text.started,text.stopped,key_resp.keys,key_resp.rt,key_resp.started,key_resp.stopped,text_2.started,text_2.stopped,key_resp_2.keys,key_resp_2.rt,key_resp_2.started,key_resp_2.stopped,participant,session,date,expName,psychopyVersion,frameRate,
+12.433027899009176,None,space,5.285922542010667,12.433027899009176,None,,,,,,,0,001,2022_Jan_26_1414,learn_exp,2021.2.3,None,
+,,,,,,17.745361640001647,None,space,0.5415838480112143,17.745361640001647,None,0,001,2022_Jan_26_1414,learn_exp,2021.2.3,None,
